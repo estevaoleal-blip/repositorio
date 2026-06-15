@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O Novo Campo: Tecnologia e Sucessão Familiar</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #2d3a31;
+            background-color: #f4f7f5;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, #1e4620 0%, #0f2a11 100%);
+            color: #ffffff;
+            padding: 60px 30px;
+            border-radius: 8px;
+            margin-bottom: 40px;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 28px;
+            margin: 0 0 15px 0;
+            font-weight: 700;
+            color: #e8f5e9;
+        }
+
+        .hero p {
+            font-size: 16px;
+            margin: 0 auto;
+            max-width: 650px;
+            color: #c8e6c9;
+        }
+
+        /* Títulos */
+        h2 {
+            font-size: 20px;
+            color: #1e4620;
+            border-left: 4px solid #4caf50;
+            padding-left: 12px;
+            margin-top: 40px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            margin: 0 0 16px 0;
+            color: #3a4d40;
+            font-size: 15px;
+            text-align: justify;
+        }
+
+        /* Pilares Tecnológicos */
+        .pillars-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+
+        .pillar-card {
+            background: #ffffff;
+            padding: 20px;
+            border-radius: 6px;
+            border: 1px solid #e0e6e1;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+        }
+
+        .pillar-card h3 {
+            font-size: 16px;
+            color: #2e7d32;
+            margin: 0 0 10px 0;
+        }
+
+        .pillar-card p {
+            font-size: 14px;
+            margin: 0;
+            line-height: 1.5;
+        }
+
+        /* Manifesto */
+        .manifesto-box {
+            background-color: #e8f5e9;
+            border: 1px solid #c8e6c9;
+            padding: 25px;
+            border-radius: 6px;
+            margin: 40px 0;
+        }
+
+        .manifesto-box h3 {
+            color: #1b5e20;
+            margin: 0 0 10px 0;
+            font-size: 18px;
+        }
+
+        /* Tabela Comparativa */
+        .data-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 25px 0;
+            background: #ffffff;
+            border-radius: 6px;
+            overflow: hidden;
+            border: 1px solid #e0e6e1;
+        }
+
+        .data-table th {
+            background-color: #2e7d32;
+            color: #ffffff;
+            text-align: left;
+            padding: 12px 16px;
+            font-size: 15px;
+        }
+
+        .data-table td {
+            padding: 12px 16px;
+            border-bottom: 1px solid #e8eee9;
+            font-size: 14px;
+        }
+
+        .data-table tr:nth-child(even) {
+            background-color: #f9fbf9;
+        }
+
+        /* Formulário CTA */
+        .cta-section {
+            background: #ffffff;
+            border: 2px solid #2e7d32;
+            padding: 40px 30px;
+            border-radius: 8px;
+            margin-top: 40px;
+            text-align: center;
+        }
+
+        .cta-section h2 {
+            border-left: none;
+            padding-left: 0;
+            margin-top: 0;
+            text-align: center;
+        }
+
+        .form-group {
+            margin: 20px auto;
+            max-width: 450px;
+        }
+
+        .form-input {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 15px;
+            border: 1px solid #c8d3c9;
+            border-radius: 4px;
+            font-size: 14px;
+            box-sizing: border-box;
+            background-color: #fafbfa;
+        }
+
+        .btn-submit {
+            width: 100%;
+            background-color: #2e7d32;
+            color: #ffffff;
+            padding: 14px;
+            border: none;
+            border-radius: 4px;
+            font-weight: bold;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+
+        .btn-submit:hover {
+            background-color: #1b5e20;
+        }
+
+        .footer {
+            margin-top: 50px;
+            text-align: center;
+            font-size: 13px;
+            color: #708573;
+            border-top: 1px solid #e0e6e1;
+            padding-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="hero">
+            <h1>O Elo da Inovação no Campo</h1>
+            <p>Conectando a energia da juventude à tecnologia sustentável para criar a nova geração da agricultura familiar: moderna, produtiva e em perfeito equilíbrio com a natureza.</p>
+        </div>
+
+        <h2>A Nova Era da Agricultura Familiar</h2>
+        <p>O retorno do jovem ao campo não representa mais um retrocesso, mas um salto tecnológico rumo ao amanhã. A tecnologia sustentável redefiniu o agronegócio, transformando a propriedade rural tradicional em um polo dinâmico de alta inovação. Automação, inteligência artificial e manejo regenerativo agora caminham juntos, oferecendo a rentabilidade que atrai as novas gerações e a preservação ecológica que os tempos atuais exigem.</p>
+        
+        <p>Garantir a sucessão familiar hoje significa digitalizar processos operacionais sem perder as raízes afetivas da terra, permitindo que pais e filhos liderem juntos uma transição agroecológica inteligente, eficiente e altamente competitiva.</p>
+
+        <h2>Tecnologia como Fator de Atração e Permanência</h2>
+        <div class="pillars-container">
+            <div class="pillar-card">
+                <h3>Agtech e Precisão</h3>
+                <p>Uso de inteligência de dados, sensores IoT e monitoramento por drones para otimizar insumos, eliminar desperdício de recursos hídricos e proteger a saúde do solo.</p>
+            </div>
+            <div class="pillar-card">
+                <h3>Energias Renováveis</h3>
+                <p>Integração de matrizes solares e biomassa nas propriedades, reduzindo drasticamente custos fixos e promovendo autossuficiência energética limpa.</p>
+            </div>
+            <div class="pillar-card">
+                <h3>Manejo Regenerativo</h3>
+                <p>Sistemas integrados (Lavoura-Pecuária-Floresta) geridos por softwares de ponta que maximizam o rendimento por hectare respeitando a biodiversidade regional.</p>
+            </div>
+        </div>
+
+        <div class="manifesto-box">
+            <h3>A Aliança entre Gerações</h3>
+            <p><em>"A sabedoria empírica de quem conhece o comportamento da terra une-se à agilidade digital de quem domina as novas telas. A sucessão familiar moderna não substitui o legado histórico; ela o expande através da sustentabilidade de precisão."</em></p>
+        </div>
+
+        <h2>O Impacto Prático da Modernização Sustentável</h2>
+        <p>Confira os principais indicadores observados em propriedades rurais que utilizam a tecnologia como ponte geracional:</p>
+        
+        <table class="data-table">
+            <thead>
+                <tr>
+                    <th>Indicador Estratégico</th>
+                    <th>Modelo Tradicional</th>
+                    <th>Modelo Tecnológico Sustentável</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Gestão de Recursos Naturais</td>
+                    <td>Uso empírico com margem de perdas</td>
+                    <td>Monitoramento automatizado em tempo real</td>
+                </tr>
+                <tr>
+                    <td>Pegada de Carbono da Operação</td>
+                    <td>Alta emissão por queima de fósseis</td>
+                    <td>Neutralidade através de energias limpas</td>
+                </tr>
+                <tr>
+                    <td>Engajamento da Nova Geração</td>
+                    <td>Ruptura e êxodo para os centros urbanos</td>
+                    <td>Engajamento em alta através de gestão tech</td>
+                </tr>
+                <tr>
+                    <td>Previsibilidade de Mercado</td>
+                    <td>Dependência rígida de sazonalidades</td>
+                    <td>Uso de análises preditivas baseadas em IA</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="cta-section">
+            <h2>Pronto para liderar a transformação da sua propriedade?</h2>
+            <p>Inscreva-se abaixo para receber gratuitamente o nosso <strong>Guia Prático de Sucessão Familiar e Implantação de Tecnologias Verdes no Campo</strong>.</p>
+            
+            <form class="form-group" onsubmit="event.preventDefault(); alert('Inscrição simulada com sucesso!');">
+                <input type="text" class="form-input" placeholder="Seu nome completo" required>
+                <input type="email" class="form-input" placeholder="Seu principal e-mail" required>
+                <input type="text" class="form-input" placeholder="Tamanho da sua propriedade (Hectares)">
+                <button type="submit" class="btn-submit">Quero Baixar o Guia Gratuito</button>
+            </form>
+        </div>
+
+        <div class="footer">
+            <p>© 2026 InovaCampo Sustentável. Tecnologia, Juventude e Tradição em Perfeito Equilíbrio.</p>
+        </div>
+    </div>
+
+</body>
+</html>
